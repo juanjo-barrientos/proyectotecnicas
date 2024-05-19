@@ -1,0 +1,10 @@
+.carousel-responsive {
+  height: 92vh;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-responsive {
+    height: 40vh;
+  }
+}

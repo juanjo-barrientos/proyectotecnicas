@@ -17,8 +17,8 @@ export default function AdquisitionContainer() {
             Adquiere tu CX-5 ahora!
           </p>
           <div className="d-grid gap-2">
-            <Link to="/" className="btn btn-outline-light btn-lg ">
-              MÁS INFORMACIÓN
+            <Link to="/shop" className="btn btn-outline-light btn-lg ">
+              ELIGE LA TUYA
             </Link>
           </div>
         </div>

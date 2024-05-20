@@ -43,7 +43,7 @@ export default function ColumsContainer() {
       </div>
       <div className="row d-flex align-items-center justify-content-center mt-4">
         <div className="col-md-6 d-flex align-items-center justify-content-center">
-          <Link to="/" className="btn btn-dark w-50 fw-bold">
+          <Link to="/details" className="btn btn-dark w-50 fw-bold">
             Ver más detalles
           </Link>
         </div>

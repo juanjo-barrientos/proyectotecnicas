@@ -1,15 +1,14 @@
-import image3 from "../assets/image3.jpg";
+import image3 from "../../assets/image3.jpg";
 import { Link } from "react-router-dom";
 
 export default function Jumbotron() {
   return (
-    <div className="container mt-5 my-5">
+    <div className="container my-5">
       <div className="row">
         <div className="col-md-6">
           <img
             src={image3}
-            className="img-fluid"
-            style={{ borderRadius: 25, boxShadow: "3px 3px 10px 3px #888" }}
+            className="img-fluid shadow-lg rounded-3"
             alt="Mazda CX-5"
           />
         </div>
@@ -23,10 +22,10 @@ export default function Jumbotron() {
             cualquier aventura. ¡Visítanos y maneja la diferencia Mazda!
           </p>
           <div className="d-grid gap-2">
-            <Link to="/" className="btn btn-dark btn-lg">
+            <Link to="/details" className="btn btn-dark btn-lg">
               Conocer más
             </Link>
-            <Link to="/" className="btn btn-outline-dark btn-lg">
+            <Link to="/shop" className="btn btn-outline-dark btn-lg">
               Comprar
             </Link>
           </div>

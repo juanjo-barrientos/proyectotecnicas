@@ -5,7 +5,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-dark">
       <div className="container-fluid">
-        <Link className="navbar-brand px-4" href="#">
+        <Link className="navbar-brand px-4" to="/">
           <img
             src={logo}
             alt="Logo"
@@ -32,13 +32,13 @@ export default function Navbar() {
               <Link
                 className="nav-link active text-light fw-bolder"
                 aria-current="page"
-                to="/"
+                to="/shop"
               >
                 + Ir a la tienda
               </Link>
             </li>
             <li className="nav-item me-4">
-              <Link className="nav-link text-light" aria-current="page" to="/">
+              <Link className="nav-link text-light" aria-current="page" to="/details">
                 Ver detalles
               </Link>
             </li>

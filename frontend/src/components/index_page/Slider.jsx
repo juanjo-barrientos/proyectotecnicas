@@ -1,6 +1,6 @@
-import image2 from "../assets/image2.jpg";
-import image4 from "../assets/image4.jpg";
-import image5 from "../assets/image5.jpg";
+import image2 from "../../assets/image2.jpg";
+import image4 from "../../assets/image4.jpg";
+import image5 from "../../assets/image5.jpg";
 import "./slider.css";
 
 export default function Slider() {
@@ -12,14 +12,14 @@ export default function Slider() {
     >
       <div className="carousel-inner">
         <div className="carousel-item active carousel-responsive">
-          <img src={image2} className="d-block w-100" alt="Image 1" />
+          <img src={image2} className="d-block w-100" alt="Car image" />
         </div>
         <div className="carousel-item carousel-responsive">
-          <img src={image5} className="d-block w-100" alt="Image 2" />
+          <img src={image5} className="d-block w-100" alt="Car image" />
         </div>
 
         <div className="carousel-item carousel-responsive">
-          <img src={image4} className="d-block w-100" alt="Image 4" />
+          <img src={image4} className="d-block w-100" alt="Inset car image" />
         </div>
       </div>
       <a

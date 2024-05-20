@@ -1,10 +1,10 @@
 import AdquisitionContainer from "../components/AdquisitionContainer";
-import ColumsContainer from "../components/ColumsContainer";
+import ColumsContainer from "../components/index_page/ColumsContainer";
 import Footer from "../components/Footer";
 import InterContainers from "../components/InterContainers";
-import Jumbotron from "../components/Jumbotron";
+import Jumbotron from "../components/index_page/Jumbotron";
 import Navbar from "../components/Navbar";
-import Slider from "../components/Slider";
+import Slider from "../components/index_page/Slider";
 export default function Index() {
   return (
     <>

@@ -11,7 +11,7 @@ export default function Navbar() {
             alt="Logo"
             width="56"
             height="45"
-            className="d-inline-block "
+            className="d-inline-block"
           />
         </Link>
         <button

@@ -18,7 +18,7 @@ export default function AdquisitionContainer() {
           </p>
           <div className="d-grid gap-2">
             <Link to="/shop" className="btn btn-outline-light btn-lg ">
-              ELIGE LA TUYA
+              CONSIGUE LA TUYA
             </Link>
           </div>
         </div>
